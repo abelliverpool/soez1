@@ -1,0 +1,112 @@
+body{
+    background-image: url(/assets/images/auth-bg-dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-container {
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+   color: #fff;
+}
+
+.logo {
+    display: block;
+    text-align: center;
+}
+
+.logo-image {
+    height: 200px;
+    padding:0px;
+    margin: 0px;
+}
+
+.signin-section {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.signin-content {
+    text-align: center;
+}
+
+.signin-heading {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.remember-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.remember-checkbox {
+    display: inline-block;
+}
+
+.remember-text {
+    font-size: 14px;
+    color: #f0ecec;
+}
+
+.forgot-password-link {
+    display: block;
+    margin-bottom: 20px;
+    color: #eee8e8;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.signin-button {
+    width: 100%;
+    background-color: #1f89fa;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signin-button:hover {
+    background-color: #0056b3;
+}
+
+.signup-text {
+    font-size: 14px;
+    color: #dbd5d5;
+}
+
+.signup-link {
+    color: #64adfa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+}
